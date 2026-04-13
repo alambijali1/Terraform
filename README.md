@@ -50,7 +50,7 @@ Through Terraform created a **private AKS cluster** on Azure with ACR, Key Vault
 ## AKS Cluster Details
 
 - **Private cluster** — no public API server endpoint
-- **Node pools**: system pool (`Standard_D4ds_v5`, 1–5 nodes) + user pool (1–10 nodes)
+- **Node pools**: system pool ( 1–5 nodes) + user pool (1–10 nodes)
 - **Networking**: Azure CNI + Calico network policy
 - **Auth**: AAD RBAC only — local accounts disabled
 - **Key Vault Secrets Provider**: enabled with 5-minute rotation interval

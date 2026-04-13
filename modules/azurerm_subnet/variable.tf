@@ -15,7 +15,7 @@ variable "aks_system_subnet_name" {
 }
 
 variable "aks_system_subnet_prefix" {
-  description = "Address prefix(es) for the AKS system node pool subnet"
+  description = "Address prefix for the AKS system node pool subnet"
   type        = list(string)
 }
 
@@ -25,7 +25,7 @@ variable "aks_user_subnet_name" {
 }
 
 variable "aks_user_subnet_prefix" {
-  description = "Address prefix(es) for the AKS user node pool subnet"
+  description = "Address prefix for the AKS user node pool subnet"
   type        = list(string)
 }
 
@@ -35,7 +35,7 @@ variable "private_subnet_name" {
 }
 
 variable "private_subnet_prefix" {
-  description = "Address prefix(es) for the private endpoint subnet"
+  description = "Address prefix for the private endpoint subnet"
   type        = list(string)
 }
 

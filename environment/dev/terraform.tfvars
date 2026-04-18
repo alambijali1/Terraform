@@ -16,7 +16,7 @@ aks_system_subnet_prefix = ["10.0.1.0/24"]
 aks_user_subnet_prefix   = ["10.0.2.0/24"]
 private_subnet_prefix    = ["10.0.3.0/27"]
 
-kubernetes_version        = "1.32"
+kubernetes_version        = "1.33.1"
 aks_admin_group_object_id = "your-aks-admin-group-object-id"
 
 tags = {
